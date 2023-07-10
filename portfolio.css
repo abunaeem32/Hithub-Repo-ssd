@@ -42,12 +42,37 @@ nav a {
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url('../portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right ;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display:flex;
     align-items: center;
 }
+.banner-content{
+max-width: 500px;
+
+}
+/* banner pic aa jhamela ache */
 .banner .profile-pic{
     width: 500px;
+    justify-content: space-between;
+    padding-left: 45%;
+  
 }
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+  margin-bottom: 0;
+}
+.banner-title{
+    font-size: 55px;  
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* .banner-ditails{
+   max-width: 585px;;
+} */
